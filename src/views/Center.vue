@@ -1,6 +1,6 @@
 <template>
   <div>
-    center组件
+    center组件由chris来负责
     <van-button type="info" @click="handleBtn()">信息按钮</van-button>
   </div>
 </template>
