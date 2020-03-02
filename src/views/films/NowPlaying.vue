@@ -26,8 +26,9 @@ export default {
     }
   },
   mounted () {
+    console.log(this.cityId)
     myaxios.request({
-      url: `/gateway?cityId=${this.cityId}&pageNum=1&pageSize=10&type=1&k=1330813`,
+      url: `/gateway?cityId=${this.cityId}&pageNum=1&pageSize=10&type=1&k=9123751`,
       method: 'get',
       headers: {
         'X-Host': 'mall.film-ticket.film.list',

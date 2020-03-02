@@ -90,9 +90,9 @@ export default {
   },
   mounted () {
     // 怎么利用唯一的id请求数据？
-    console.log(this.$route, this.$route.params.filmDetail)
+    console.log(this.$route, this.cityId)
     myaxios.request({
-      url: `/gateway?filmId=${this.cityId}&k=2841023`,
+      url: `/gateway?filmId=${this.$route.params.filmDetail}&k=9058959 `,
       method: 'get',
       headers: {
         'X-Host': 'mall.film-ticket.film.info',
